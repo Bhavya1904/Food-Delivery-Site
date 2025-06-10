@@ -93,24 +93,24 @@ const Home = () => {
 
       </div>
       {/* last line  */}
-        <div className='relative mt-16 py-12 bg-gradient-to-t from-slate-300 to-slate-200'>
-  <div className='absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(34,197,94,0.05)_100%)]'></div>
-  <div className='relative flex flex-col items-center justify-center space-y-4'>
-    <div className='text-slate-600 text-xl font-light tracking-wide'>Designed & Developed by</div>
-    <a 
-      href="https://github.com/Bhavya1904/" 
-      className='group relative text-5xl font-black text-slate-700 hover:text-green-600 transition-colors duration-300'
-    >
-      <span className='relative z-10'>Bhavya</span>
-      <div className='absolute inset-0 bg-green-500/20 blur-xl scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full'></div>
-    </a>
-    <div className='flex space-x-1'>
-      <div className='w-16 h-0.5 bg-green-500 rounded-full'></div>
-      <div className='w-4 h-0.5 bg-green-400 rounded-full'></div>
-      <div className='w-8 h-0.5 bg-green-300 rounded-full'></div>
-    </div>
-  </div>
-</div>
+      <div className='relative mt-16 py-12 bg-gradient-to-t from-slate-300 to-slate-200'>
+        <div className='absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(34,197,94,0.05)_100%)]'></div>
+        <div className='relative flex flex-col items-center justify-center space-y-4'>
+          <div className='text-slate-600 text-xl font-light tracking-wide'>Designed & Developed by</div>
+          <a
+            href="https://github.com/Bhavya1904/"
+            className='group relative text-5xl font-black text-slate-700 hover:text-green-600 transition-colors duration-300'
+          >
+            <span className='relative z-10'>Bhavya</span>
+            <div className='absolute inset-0 bg-green-500/20 blur-xl scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full'></div>
+          </a>
+          <div className='flex space-x-1'>
+            <div className='w-16 h-0.5 bg-green-500 rounded-full'></div>
+            <div className='w-4 h-0.5 bg-green-400 rounded-full'></div>
+            <div className='w-8 h-0.5 bg-green-300 rounded-full'></div>
+          </div>
+        </div>
+      </div>
 
 
     </div>
